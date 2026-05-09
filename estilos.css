@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #1a1a1a, #000);
+    padding: 35px 20px;
+    border-bottom: 5px solid #ffd700;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #ffd700;
+    font-size: 2.8em;
+}
+
+.desc {
+    color: white;
+    font-weight: bold;
+    padding-top: 15%;
+    position: relative;
+}
+
+.subtitle {
+    color: #ff3333;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: #1a1a1a;
+    border-radius: 15px;
+    width: 280px;
+    overflow: hidden;
+    border: 2px solid #333;
+    transition: all 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #ffd700;
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
+}
+
+.service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+}
+
+.info {
+    padding: 20px;
+}
+
+.service-card h3 {
+    color: #ffd700;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffd700;
+    margin: 12px 0;
+}
+
+.red-price {
+    color: #ff3333;
+}
+
+button {
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+footer {
+    margin-top: 50px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+
+/* logo de wap propiedades*/
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.wap-img {
+    width: 30px;
+    margin-right: 10px;
+}
